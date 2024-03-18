@@ -1,0 +1,16 @@
+{
+  "name": "botsender",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jecos",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.8.1",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
