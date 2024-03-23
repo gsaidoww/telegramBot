@@ -107,5 +107,5 @@ bot.on('message', (msg) => {
   const username = msg.from.username;
   getUser(chatId, username);
   // send a message to the chat acknowledging receipt of their message
-  bot.sendMessage(chatId, `Добро поажловать в FINSALER AUTH BOT.\n\nВаш код авторизации: ${codeEmail}.\n\nВернитесь обратно в приложение и введите этот код.`);
+  bot.sendMessage(chatId, `Добро пожаловать в FINSALER AUTH BOT.\n\nВаш код авторизации: ${codeEmail}.\n\nВернитесь обратно в приложение и введите этот код.`);
 });
